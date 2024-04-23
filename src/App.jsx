@@ -16,11 +16,9 @@ const App = () => {
 
       <HeadExercise name = " React Class"/>
 
-      <PartCourse name = "Part1" number = {10}/>
-      <PartCourse name = "Part2" number = {7}/>
-      <PartCourse name = "Part3" number = {14}/>
-
-      <TotalPart number = />
+      <PartCourse/>
+     
+      <TotalPart/>
       
       
     </>

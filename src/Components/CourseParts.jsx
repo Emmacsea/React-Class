@@ -1,7 +1,10 @@
-const PartCourse = (props) => {
+const PartCourse = () => {
+
     return (
         <div>
-            <p> {props.name} has {props.number} exercises</p>
+            <p> part1 = {10} </p>
+            <p> part2 = {7} </p>
+            <p> part3 = {14} </p>
 
         </div>
 
