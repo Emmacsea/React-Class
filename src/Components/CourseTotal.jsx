@@ -1,14 +1,12 @@
-const TotalPart = () => {
-const exercise1 = 10;
-const exercise2 = 7;
-const exercise3 = 14;
+const Total = (props) => {
+   
     return (
         <div>
-            <p> Total Number of exercises is {exercise1 + exercise2 + exercise3}</p>
+            <p> Number of exercises is {props.exercises}</p>
 
         </div>
 
     )
 }
 
-export default TotalPart
+export default Total

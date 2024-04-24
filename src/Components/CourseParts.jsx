@@ -1,17 +1,16 @@
-const PartCourse = () => {
-const exercise1 = 10
-const exercise2 = 7
-const exercise3 = 14
+const Content = (props) => {
+   
 
     return (
         <div>
-            <p> part1 = {exercise1} </p>
-            <p> part2 = {exercise2} </p>
-            <p> part3 = {exercise3} </p>
+            <p> {props.part} {props.exercises} </p>
+            
+            
+            
 
         </div>
 
     )
 }
 
-export default PartCourse
+export default Content
