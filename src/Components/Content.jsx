@@ -1,19 +1,13 @@
 const Content = (props) => {
-   
+  return (
+    <div>
+     {(props.parts).map(part => (
+      <p>{part.name} {part.exercises}</p>
+     ))}
 
-    return (
-        <div>
-            <p> {props.part1} {props.exercises1} </p>
-            <p> {props.part2} {props.exercises2} </p>
-            <p> {props.part3} {props.exercises3} </p>
-
-            
-            
-            
-
-        </div>
-
-    )
+      
+    </div>
+  );
 }
 
-export default Content
+export default Content;
