@@ -1,3 +1,4 @@
+import './App.css'
 import Content from "./Components/Content"
 import Header from "./Components/Header"
 import Footer from "./Components/Footer"
@@ -28,7 +29,7 @@ const App = () => {
       <Content parts = {parts} />
        
       
-     <Footer parts = {parts + parts + parts}/>
+     <Footer parts = {parts}/>
       
       
       
