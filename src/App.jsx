@@ -28,7 +28,7 @@ const App = () => {
       <Content parts = {parts} />
        
       
-     <Footer parts = {parts}/>
+     <Footer parts = {parts + parts + parts}/>
       
       
       
